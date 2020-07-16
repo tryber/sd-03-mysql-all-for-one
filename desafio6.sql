@@ -1,4 +1,4 @@
 USE northwind;
 
 SELECT id, product_name FROM products
-	ORDER BY product_name;
+ORDER BY product_name;
