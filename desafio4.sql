@@ -1,0 +1,1 @@
+COUNT * FROM northwind.products;
