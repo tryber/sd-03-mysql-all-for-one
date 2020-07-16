@@ -1,1 +1,2 @@
-SELECT * FROM northwind.order_details;
+UPDATE northwind.order_details
+SET order_details = 15;
