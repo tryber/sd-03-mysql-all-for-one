@@ -1,4 +1,4 @@
-SELECT * AS orders_count
+SELECT COUNT(id) AS orders_count
 FROM northwind.orders
 WHERE (
     employee_id = 5
