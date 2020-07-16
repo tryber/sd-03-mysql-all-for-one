@@ -1,1 +1,1 @@
-SELECT id, product_code FROM northwind.products;
+SELECT id FROM northwind.products ORDER BY id;
