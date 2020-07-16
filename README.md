@@ -146,7 +146,7 @@ Monte queries para encontrar as seguintes informações:
 ## Desafios sobre filtragem de dados
 
 9. Mostre todos os valores de `notes` da tabela `purchase_orders` que não são nulos.
-10. Mostre todos os dados da tabela `purchase_orders` em ordem decrescente ordenados por `created_by` em que o `created_by` é maior ou igual a 3.
+10. Mostre todos os dados da tabela `purchase_orders` em ordem decrescente ordenados por `created_by` em que o `created_by` é maior ou igual a 3. E como critério de desempate para a ordenação, ordene também os resultados pelo `id` de forma crescente.
 11. Exiba os dados de `notes` da tabela `purchase_orders` em que seu valor de "Purchase generated based on Order" está entre 30 e 39, incluindo tanto o valor de 30 quanto de 39.
 12. Mostre as `submitted_date` de `purchase_orders` em que a `submitted_date` é do dia 26 de abril de 2006.
 13. Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3.
