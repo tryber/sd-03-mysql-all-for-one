@@ -1,1 +1,2 @@
-SELECT * FROM nortwind.products LIMIT 10 OFFSET 4;
+SELECT id FROM northwind.products
+LIMIT 10 OFFSET 3;
