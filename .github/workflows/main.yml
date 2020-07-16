@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v2
         if: steps.wait-for-build.outputs.conclusion == 'success'
       - name: Evaluator Step
-        uses: betrybe/jest-evaluator-action@v4
+        uses: betrybe/jest-evaluator-action@v5
         id: evaluator
         if: steps.wait-for-build.outputs.conclusion == 'success'
         with:
