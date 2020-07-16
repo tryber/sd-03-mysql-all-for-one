@@ -11,9 +11,9 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ### ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-mysql-all-for-one`.
+  * `git clone https://github.com/tryber/sd-03-mysql-all-for-one.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-mysql-all-for-one`
+    * `cd sd-03-mysql-all-for-one`
 
 2. Instale as dependências [**Caso existam**]
   * `npm install` [**exemplo**]
@@ -46,13 +46,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   * Usando o exemplo anterior: `git push -u origin seunome-mysql-all-for-one`
 
 7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-mysql-all-for-one/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-mysql-all-for-one/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-mysql-all-for-one/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-03-mysql-all-for-one/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
@@ -106,6 +106,24 @@ Hoje você fará um projeto com o codinome *All For One* em que praticará todos
 
     ![Drop Schema](images/drop_database.png)
 
+---
+
+## Implementações técnicas
+
+Para executar localmente os testes, é preciso escrever o seguinte no seu terminal:
+```sh
+MYSQL_USER=<SEU_NOME_DE_PESSOA_USUARIA> MYSQL_PASSWORD=<SUA SENHA> HOSTNAME=<NOME_DO_HOST> npm test
+```
+
+Ou seja, suponha que para poder acessar a base de dados feita neste projeto você tenha `root` como seu nome de pessoa usuária, `password` como senha e `localhost` como host. Logo, você executaria:
+```sh
+MYSQL_USER=root MYSQL_PASSWORD=password HOSTNAME=localhost npm test
+```
+
+Usando o exemplo anterior de base, suponha que você não tenha setado uma senha para `root`. Neste caso, você executaria:
+```sh
+MYSQL_USER=root MYSQL_PASSWORD= HOSTNAME=localhost npm test
+  ```
 ---
 
 # Requisitos do projeto
@@ -179,7 +197,7 @@ Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus co
 
   * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
 
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-03`.
 
 Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
