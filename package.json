@@ -30,6 +30,7 @@
     "mysql-import": "^4.0.24"
   },
   "dependencies": {
+    "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
     "sequelize": "^6.2.0"
   }
