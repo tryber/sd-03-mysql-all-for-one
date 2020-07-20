@@ -1,1 +1,1 @@
-SELECT notes FROM northwind.purchase_orders WHERE notes LIKE '%3_';
+SELECT * FROM northwind.purchase_orders WHERE created_by >= 3 ORDER BY created_by DESC;
