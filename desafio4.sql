@@ -1,0 +1,1 @@
+--4. Conte quantos registros existem em `product_name` de `products`.
